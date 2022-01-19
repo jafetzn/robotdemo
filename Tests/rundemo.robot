@@ -8,7 +8,7 @@ ${BROWSER}=  ie
 *** Test Cases ***
 Search in Amazon
     [Documentation]    Present some information about this test case
-    [Tags]    Smoke Search
+    [Tags]    Smoke Search Demo
     Open Browser  https://www.amazon.com  ${Browser}
     Sleep  3s
     Input Text    //input[@id='twotabsearchtextbox']  PS5
