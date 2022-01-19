@@ -8,10 +8,11 @@ ${BROWSER}=  ie
 *** Test Cases ***
 Search in Amazon
     [Documentation]    Present some information about this test case
-    [Tags]    Smoke
+    [Tags]    Smoke Search
     Open Browser  https://www.amazon.com  ${Browser}
     Sleep  3s
     Input Text    //input[@id='twotabsearchtextbox']  PS5
     Click Button    //input[@id='nav-search-submit-button']
     Wait Until Page Contains    results for "PS5"
+    Sleep  3s
     Close Browser
