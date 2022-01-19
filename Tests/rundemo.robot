@@ -7,7 +7,7 @@ ${BROWSER}=  ie
 
 *** Test Cases ***
 Search in Amazon
-    [Documentation]    This test validates the search bar in Amazon
+    [Documentation]    Present some information about this test case
     [Tags]    Smoke Search
     Open Browser  https://www.amazon.com  ${Browser}
     Sleep  3s
